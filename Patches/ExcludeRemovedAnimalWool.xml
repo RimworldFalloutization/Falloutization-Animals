@@ -14,12 +14,17 @@
     </Operation>
     
     <!-- Odyssey animals that produce wool (only if Odyssey is enabled) -->
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationAdd">
         <xpath>Defs/TraderKindDef/stockGenerators/li[@Class='StockGenerator_Category' and categoryDef='Textiles']/excludedThingDefs</xpath>
         <value>
             <li>WoolMastodon</li>
             <li>WoolMuskox</li>
         </value>
+    </match>
     </Operation>
     
     <!-- Remove stuff categories from excluded wools to prevent them from being used in recipes -->
@@ -51,17 +56,25 @@
     </Operation>
     
     <!-- Odyssey wools (only if Odyssey is enabled) -->
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods><match Class="PatchOperationSequence">
+    <operations>
+    <li  Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="WoolMastodon"]/stuffProps</xpath>
         <value>
             <categories Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="WoolMuskox"]/stuffProps</xpath>
         <value>
             <categories Inherit="False" />
         </value>
+    </li>
+    </operations>
+    </match>
     </Operation>
     
 </Patch>

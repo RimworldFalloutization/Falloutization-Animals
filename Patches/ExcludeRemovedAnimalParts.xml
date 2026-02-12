@@ -11,13 +11,19 @@
         </value>
     </Operation>
     
+
+
     <!-- Odyssey animals that produce parts -->
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationAdd">
         <xpath>Defs/TraderKindDef/stockGenerators/li[@Class='StockGenerator_Tag' and tradeTag='ExoticMisc']/excludedThingDefs</xpath>
         <value>
             <li>MastodonTusk</li>
             <li>AlphaThrumboHorn</li>
         </value>
+    </match>
     </Operation>
-    
 </Patch>

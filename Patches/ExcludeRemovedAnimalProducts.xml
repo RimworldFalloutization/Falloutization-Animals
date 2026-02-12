@@ -68,7 +68,7 @@
     </Operation>
     
     <!-- Biotech animals that produce meat -->
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
+    <Operation Class="PatchOperationAdd">
         <xpath>Defs/TraderKindDef/stockGenerators/li[@Class='StockGenerator_Category' and categoryDef='FoodRaw']/excludedThingDefs</xpath>
         <value>
             <li>Meat_Toxalope</li>
@@ -76,7 +76,13 @@
     </Operation>
     
     <!-- Odyssey animals that lay eggs -->
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <operations>
+    <li Class="PatchOperationAdd">
         <xpath>Defs/TraderKindDef/stockGenerators/li[@Class='StockGenerator_Category' and categoryDef='FoodRaw']/excludedThingDefs</xpath>
         <value>
             <li>EggMonitorLizardFertilized</li>
@@ -104,11 +110,10 @@
             <li>EggPenguinFertilized</li>
             <li>EggPenguinUnfertilized</li>
         </value>
-    </Operation>
-    
+    </li>
     <!-- Odyssey animals that produce meat -->
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-        <xpath>Defs/TraderKindDef/stockGenerators/li[@Class='StockGenerator_Category' and categoryDef='FoodRaw']/excludedThingDefs</xpath>
+    <li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef/stockGenerators/li[@Class='StockGenerator_Category' and categoryDef='FoodRaw']/excludedThingDefs</xpath>
         <value>
             <li>Meat_Hippo</li>
             <li>Meat_LavaSnail</li>
@@ -137,6 +142,9 @@
             <li>Meat_Wolverine</li>
             <li>Meat_AlphaThrumbo</li>
         </value>
+    </li>
+    </operations>
+    </match>
     </Operation>
     
 </Patch>

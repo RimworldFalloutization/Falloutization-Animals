@@ -141,146 +141,155 @@
   </Operation>
 
   <!-- Biotech disabled animals -->
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
+  <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Toxalope"]/race</xpath>
     <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
   </Operation>
 
   <!-- Odyssey disabled animals -->
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Alligator"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Armadillo"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Badger"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Bluebird"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Bullfrog"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Cat_Scimitar"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="ColossusToad"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Flamingo"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Gorilla"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Heron"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Hippo"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="LavaSnail"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Macaw"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Mastodon"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Megavole"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Mink"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="MonitorLizard"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Moose"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Muskox"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Otter"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Panda"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Peacock"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Penguin"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Porcupine"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Quail"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="SeaLion"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Seal"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="SeaTurtle"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Sparrow"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="StoneCrab"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Swan"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Tiger"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Walrus"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
-  </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/ThingDef[defName="Wolverine"]/race</xpath>
-    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+      <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Alligator"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Armadillo"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Badger"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Bluebird"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Bullfrog"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Cat_Scimitar"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="ColossusToad"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Flamingo"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gorilla"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Heron"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Hippo"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="LavaSnail"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Macaw"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Mastodon"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Megavole"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Mink"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MonitorLizard"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Moose"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Muskox"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Otter"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Panda"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Peacock"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Penguin"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Porcupine"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Quail"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SeaLion"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Seal"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SeaTurtle"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Sparrow"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="StoneCrab"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Swan"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Tiger"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Walrus"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Wolverine"]/race</xpath>
+      <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+    </li>
+    </operations>
+    </match>
   </Operation>
 </Patch>

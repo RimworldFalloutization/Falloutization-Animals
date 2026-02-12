@@ -55,21 +55,26 @@
       </options>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
+  <Operation Class="PatchOperationAdd">
     <xpath>Defs/QuestScriptDef[defName="Hospitality_Animals"]/root/nodes/li[@Class="QuestNode_GetPawnKind"]/options</xpath>
     <value>
       <li><kindDef>WasteRat</kindDef><weight>1</weight></li>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/QuestScriptDef[defName="Hospitality_Animals"]/root/nodes/li[@Class="QuestNode_GetPawnKind"]/options</xpath>
-    <value>
-      <li><kindDef>AlphaThrumbo</kindDef><weight>1</weight></li>
-      <li><kindDef>BogHound</kindDef><weight>1</weight></li>
-      <li><kindDef>Crow</kindDef><weight>1</weight></li>
-      <li><kindDef>PrairieDog</kindDef><weight>1</weight></li>
-      <li><kindDef>Vulture</kindDef><weight>1</weight></li>
-      <li><kindDef>Wolf_Great</kindDef><weight>1</weight></li>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/QuestScriptDef[defName="Hospitality_Animals"]/root/nodes/li[@Class="QuestNode_GetPawnKind"]/options</xpath>
+      <value>
+        <li><kindDef>AlphaThrumbo</kindDef><weight>1</weight></li>
+        <li><kindDef>BogHound</kindDef><weight>1</weight></li>
+        <li><kindDef>Crow</kindDef><weight>1</weight></li>
+        <li><kindDef>PrairieDog</kindDef><weight>1</weight></li>
+        <li><kindDef>Vulture</kindDef><weight>1</weight></li>
+        <li><kindDef>Wolf_Great</kindDef><weight>1</weight></li>
+      </value>
+    </match>
   </Operation>
 </Patch>

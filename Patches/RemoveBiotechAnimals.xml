@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <!-- Remove Toxalope from pollutionWildAnimals lists -->
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Biotech">
+    <Operation Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/pollutionWildAnimals/Toxalope</xpath>
     </Operation>
 
     <!-- Remove tradeTags to prevent animals from appearing in trader caravans -->
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Toxalope"]/tradeTags</xpath>
         <value><tradeTags Inherit="False" /></value>
     </Operation>

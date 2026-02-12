@@ -3,316 +3,342 @@
     <!-- Remove Odyssey animals from biome lists -->
     
     <!-- Remove from wildAnimals lists -->
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <operations>
+    <li  Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Bluebird</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Hippo</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/LavaSnail</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Macaw</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Mastodon</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Moose</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Muskox</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Panda</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Peacock</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Porcupine</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Quail</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Sparrow</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Swan</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/MonitorLizard</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Armadillo</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Badger</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Bullfrog</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/ColossusToad</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Flamingo</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Gorilla</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Heron</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Megavole</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Mink</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Alligator</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Tiger</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Wolverine</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Cat_Scimitar</xpath>
+    </li>
+    </operations>
+    </match>
     </Operation>
     
     <!-- Remove from coastalWildAnimals lists -->
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <operations>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/Otter</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/SeaTurtle</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/StoneCrab</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/Walrus</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/Penguin</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/SeaLion</xpath>
-    </Operation>
-    <Operation Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/coastalWildAnimals/Seal</xpath>
+    </li>
+    </operations>
+    </match>
     </Operation>
     
     <!-- Remove tradeTags to prevent animals from appearing in trader caravans -->
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <operations>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Gorilla"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Porcupine"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Mastodon"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Wolverine"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Moose"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Muskox"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Tiger"]</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Mink"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Badger"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Panda"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Hippo"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Megavole"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Armadillo"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Alligator"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Bullfrog"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="ColossusToad"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="LavaSnail"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="MonitorLizard"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Cat_Scimitar"]</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Sparrow"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Bluebird"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Quail"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Macaw"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Flamingo"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Heron"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Swan"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Peacock"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Penguin"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Walrus"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SeaLion"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Seal"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="StoneCrab"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SeaTurtle"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Otter"]/tradeTags</xpath>
         <value>
             <tradeTags Inherit="False" />
         </value>
+    </li>
+    </operations>
+    </match>
     </Operation>
     
 </Patch>

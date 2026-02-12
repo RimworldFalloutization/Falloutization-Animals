@@ -3,93 +3,102 @@
     <!-- Replace Alpha Thrumbo quest text with Alpha Deathclaw references -->
     
     <!-- Update quest name -->
-    <Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <operations>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questNameRules/rulesStrings/li[text()="questName->alpha thrumbo"]</xpath>
         <value>
             <li>questName->alpha deathclaw</li>
         </value>
-    </Operation>
+    </li>
     
     <!-- Update quest description -->
-    <Operation Class="PatchOperationReplace">
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questDescriptionRules/rulesStrings/li[contains(text(), "alpha thrumbo")]</xpath>
         <value>
             <li>questDescription->[discoveryMethod] the location of an alpha deathclaw.\n\nAlpha deathclaws are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their claws are worth more than their weight in gold.</li>
         </value>
-    </Operation>
+    </li>
     
     <!-- Update quest subject rules -->
-    <Operation Class="PatchOperationReplace">
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="subject->alpha thrumbos"]</xpath>
         <value>
             <li>subject->alpha deathclaws</li>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="subject->thrumbos"]</xpath>
         <value>
             <li>subject->deathclaws</li>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="subject->rare thrumbos"]</xpath>
         <value>
             <li>subject->rare deathclaws</li>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="questMapFeature->drawing of a thrumbo"]</xpath>
         <value>
             <li>questMapFeature->drawing of a deathclaw</li>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="questMapFeature->sketch of an odd-looking thrumbo"]</xpath>
         <value>
             <li>questMapFeature->sketch of an odd-looking deathclaw</li>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="questMapText->thrumbo habitat"]</xpath>
         <value>
             <li>questMapText->deathclaw habitat</li>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]/questSubjectRules/rulesStrings/li[text()="questMapText->alpha thrumbo"]</xpath>
         <value>
             <li>questMapText->alpha deathclaw</li>
         </value>
-    </Operation>
+    </li>
     
     <!-- Update quest expiration text -->
-    <Operation Class="PatchOperationReplace">
+    <li Class="PatchOperationReplace">
         <xpath>Defs/QuestScriptDef[defName="OpportunitySite_AlphaThrumbo_Giver"]//li[@Class="QuestNode_Letter"]/text[@TKey="LetterTextQuestExpired"]</xpath>
         <value>
             <text TKey="LetterTextQuestExpired">Intercepted communications indicate the alpha deathclaw has moved on. The quest [resolvedQuestName] has expired.</text>
         </value>
-    </Operation>
+    </li>
     
     <!-- Update site part description -->
-    <Operation Class="PatchOperationReplace">
+    <li Class="PatchOperationReplace">
         <xpath>Defs/SitePartDef[defName="AlphaThrumboSighting"]/label</xpath>
         <value>
             <label>alpha deathclaw sighting</label>
         </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
+    </li>
+    <li Class="PatchOperationReplace">
         <xpath>Defs/SitePartDef[defName="AlphaThrumboSighting"]/description</xpath>
         <value>
             <description>A rare alpha deathclaw was spotted here.</description>
         </value>
-    </Operation>
-    
+    </li>
+
     <!-- Replace GenStep to use our custom Alpha Deathclaw GenStep -->
-    <Operation Class="PatchOperationReplace">
+    <li Class="PatchOperationReplace">
         <xpath>Defs/GenStepDef[defName="AlphaThrumboSighting"]/genStep</xpath>
         <value>
             <genStep Class="Falloutization.Animals.GenStep_AlphaDeathclawSighting" />
         </value>
+    </li>
+    </operations>
+    </match>
     </Operation>
     
 </Patch>
