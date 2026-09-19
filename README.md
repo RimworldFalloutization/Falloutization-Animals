@@ -1,0 +1,204 @@
+# Falloutization: Animals
+
+## Changes
+
+- Replace Thrumbo passing events with Deathclaws (FCP - Animals) passing
+- Make Brahmin (FCP - Animals) pennable and allow traders to sell them
+
+
+## Removals
+
+### Animals
+
+- Alligator
+- Alpaca
+- Alphabeaver
+- Armadillo
+- Badger
+- Bison
+- Bluebird
+- Boomalope
+- Boomrat
+- Bullfrog
+- Capybara
+- Caribou
+- Cassowary
+- Chinchilla
+- Cobra
+- Colossus Toad
+- Cougar
+- Dromedary
+- Duck
+- Elephant
+- Elk
+- Emu
+- Flamingo
+- Gorilla
+- Grizzly Bear
+- Guinea Pig
+- Hare
+- Heron
+- Hippo
+- Horse
+- Ibex
+- Lava Snail
+- Lynx
+- Macaw
+- Mastodon
+- Megasloth
+- Megavole
+- Mink
+- Monitor Lizard
+- Monkey
+- Moose
+- Muffalo
+- Muskox
+- Ostrich
+- Otter
+- Panda
+- Panther
+- Peafowl
+- Penguin
+- Polar Bear
+- Porcupine
+- Quail
+- Raccoon
+- Rhinoceros
+- Scimitar Cat
+- Sea Lion
+- Sea Turtle
+- Seal
+- Snowhare
+- Sparrow
+- Stone Crab
+- Swan
+- Tiger
+- Tortoise
+- Toxalope
+- Turkey
+- Walrus
+- Wild Boar
+- Wolverine
+- Yak
+
+### Leathers
+
+- Armadillo Leather
+- Bluefur
+- Camelhide
+- Chinchilla Fur
+- Elephant Leather
+- Guinea Pig Fur
+- Heavy Fur
+- Hippo Leather
+- Mastodon Leather
+- Mink Fur
+- Panthera Fur
+- Rhinoceros Leather
+- Sealskin
+- Thrumbofur
+- Thrumbomane
+
+### Animal Parts
+
+- Alpha Thrumbo Horn
+- Elephant Tusk
+- Mastodon Tusk
+- Thrumbo Horn
+
+### Animal Products
+
+- Alligator Egg (Fert.)
+- Alligator Egg (Unfert.)
+- Alligator Meat
+- Alpaca Meat
+- Alpha Thrumbo Meat
+- Alphabeaver Meat
+- Armadillo Meat
+- Badger Meat
+- Bear Meat
+- Bird Meat
+- Bison Meat
+- Bluebird Egg (Fert.)
+- Bluebird Egg (Unfert.)
+- Boomalope Meat
+- Boomrat Meat
+- Bullfrog Meat
+- Capybara Meat
+- Caribou Meat
+- Cassowary Egg (Fert.)
+- Cassowary Egg (Unfert.)
+- Chinchilla Meat
+- Cobra Egg (Fert.)
+- Cobra Egg (Unfert.)
+- Cobra Meat
+- Colossus Toad Meat
+- Cougar Meat
+- Dromedary Meat
+- Duck Egg (Fert.)
+- Duck Egg (Unfert.)
+- Duck Meat
+- Elephant Meat
+- Elk Meat
+- Emu Egg (Fert.)
+- Emu Egg (Unfert.)
+- Flamingo Egg (Fert.)
+- Flamingo Egg (Unfert.)
+- Gorilla Meat
+- Guinea Pig Meat
+- Hare Meat
+- Heron Egg (Fert.)
+- Heron Egg (Unfert.)
+- Hippo Meat
+- Horse Meat
+- Ibex Meat
+- Lava Snail Meat
+- Lynx Meat
+- Macaw Egg (Fert.)
+- Macaw Egg (Unfert.)
+- Mastodon Meat
+- Megasloth Meat
+- Megavole Meat
+- Mink Meat
+- Monitor Lizard Egg (Fert.)
+- Monitor Lizard Egg (Unfert.)
+- Monitor Lizard Meat
+- Moose Meat
+- Muffalo Meat
+- Muskox Meat
+- Ostrich Egg (Fert.)
+- Ostrich Egg (Unfert.)
+- Otter Meat
+- Panda Meat
+- Panther Meat
+- Peafowl Egg (Fert.)
+- Peafowl Egg (Unfert.)
+- Penguin Egg (Fert.)
+- Penguin Egg (Unfert.)
+- Porcupine Meat
+- Quail Egg (Fert.)
+- Quail Egg (Unfert.)
+- Rhinoceros Meat
+- Scimitar Cat Meat
+- Sea Lion Meat
+- Sea Turtle Egg (Fert.)
+- Sea Turtle Egg (Unfert.)
+- Sea Turtle Meat
+- Seal Meat
+- Sparrow Egg (Fert.)
+- Sparrow Egg (Unfert.)
+- Stone Crab Meat
+- Swan Egg (Fert.)
+- Swan Egg (Unfert.)
+- Thrumbo Meat
+- Tiger Meat
+- Tortoise Egg (Fert.)
+- Tortoise Egg (Unfert.)
+- Tortoise Meat
+- Toxalope Meat
+- Turkey Egg (Fert.)
+- Turkey Egg (Unfert.)
+- Turkey Meat
+- Walrus Meat
+- Wolverine Meat
+- Yak Beef
