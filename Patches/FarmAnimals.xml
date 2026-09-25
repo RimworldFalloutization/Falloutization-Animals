@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Make it possible for animal traders to stock Brahmin -->
+  <Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.Core.Tools">
+    <xpath>Defs/ThingDef[defName='FCP_Animal_Brahmin']/tradeTags</xpath>
+    <value><li>AnimalFarm</li></value>
+  </Operation>
+
+  <!-- Make Brahmin pennable -->
+  <Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.Core.Tools">
+    <xpath>Defs/ThingDef[defName='FCP_Animal_Brahmin']/race</xpath>
+    <value><roamMtbDays>2</roamMtbDays></value>
+  </Operation>
+
+  <!-- Make it possible for animal traders to stock Bighorners -->
+  <Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.Core.Tools">
+    <xpath>Defs/ThingDef[defName='FCP_Animal_Bighorner']/tradeTags</xpath>
+    <value><li>AnimalFarm</li></value>
+  </Operation>
+
+  <!-- Make Bighorners pennable -->
+  <Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.Core.Tools">
+    <xpath>Defs/ThingDef[defName='FCP_Animal_Bighorner']/race</xpath>
+    <value><roamMtbDays>2</roamMtbDays></value>
+  </Operation>
+
+  <!-- Make Bighorners milkable -->
+  <Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.Animals">
+    <xpath>Defs/ThingDef[defName='FCP_Animal_Bighorner']</xpath>
+    <value>
+      <comps>
+        <li Class="CompProperties_Milkable">
+          <milkDef>Milk</milkDef>
+          <milkIntervalDays>1</milkIntervalDays>
+          <milkAmount>20</milkAmount>
+        </li>
+      </comps>
+    </value>
+  </Operation>
+</Patch>
