@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- HHTools lists Radstag/Bighorner as Trader carriers, but neither is packAnimal.
+       Vanilla Trading Expanded then refuses to generate those caravans. -->
+  <Operation Class="PatchOperationRemove" MayRequire="FIP.HHTools">
+    <xpath>Defs/FactionDef//carriers/FCP_Animal_Radstag | Defs/FactionDef//carriers/FCP_Animal_Bighorner</xpath>
+  </Operation>
+</Patch>
