@@ -15,16 +15,28 @@
         </li>
     </modDependencies>
     <loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Ludeon.RimWorld.Odyssey</li>
-		<li>Ludeon.RimWorld.Biotech</li>
-		<li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
         <li>Rick.FCP.Animals</li>
         <li>Rick.FCP.Core.Tools</li>
         <li>FIP.Arktos</li>
+        <li>FIP.Corvega</li>
+        <li>FIP.FutureTec</li>
+        <li>FIP.Greenway</li>
         <li>FIP.HHTools</li>
+        <li>FIP.Hubris</li>
+        <li>FIP.Lucky38</li>
+        <li>FIP.Poseidon</li>
+        <li>FIP.Repconn</li>
+        <li>FIP.RobCo</li>
+        <li>FIP.Sunset</li>
+        <li>FIP.WestTek</li>
+        <li>FIP.Whitespring</li>
+        <li>FIP.Donaustahl</li>
     </loadAfter>
     <modVersion>1.0</modVersion>
 </ModMetaData>

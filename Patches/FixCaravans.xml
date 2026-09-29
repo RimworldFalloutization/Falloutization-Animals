@@ -2,7 +2,27 @@
 <Patch>
   <!-- HHTools lists Radstag/Bighorner as Trader carriers, but neither is packAnimal.
        Vanilla Trading Expanded then refuses to generate those caravans. -->
-  <Operation Class="PatchOperationRemove" MayRequire="FIP.HHTools">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/FactionDef//carriers/FCP_Animal_Radstag | Defs/FactionDef//carriers/FCP_Animal_Bighorner</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef//carriers/FCP_Animal_Radstag | Defs/FactionDef//carriers/FCP_Animal_Bighorner</xpath>
+    </match>
+  </Operation>
+
+  <!-- FIP Donaustahl/Arktos re-inject Muffalo (pack rat) into every trader carrier list;
+       HHTools also lists Horse. Both are removed Falloutization animals. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef//carriers/Muffalo | Defs/FactionDef//carriers/Horse</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef//carriers/Muffalo | Defs/FactionDef//carriers/Horse</xpath>
+    </match>
+  </Operation>
+
+  <!-- Keep biome pack-animal pools free of removed animals so NPC generation cannot fall back to them. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BiomeDef/allowedPackAnimals/li[.="Muffalo" or .="Horse"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/BiomeDef/allowedPackAnimals/li[.="Muffalo" or .="Horse"]</xpath>
+    </match>
   </Operation>
 </Patch>

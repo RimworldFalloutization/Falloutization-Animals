@@ -5,7 +5,7 @@
 - Replace Thrumbo passing events with Deathclaws (FCP - Animals) passing
 - Make Brahmin (FCP - Animals) pennable and allow traders to sell them
 - Make Bighorners (FCP - Animals) pennable, milkable, and allow traders to sell them
-- Should prevent FIP H&H Tools from aborting arriving traders by trying to use Radstags or Bighorners as pack animals
+- Bighorners, Radstags, Muffalos and Horses removed from FIP caravans
 
 
 ## Removals
