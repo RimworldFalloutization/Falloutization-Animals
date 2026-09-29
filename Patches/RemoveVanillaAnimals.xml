@@ -32,6 +32,19 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Elephant</xpath>
     </Operation>
+    <!-- Goose is not in vanilla biomes; FIP Arktos (and similar) add it -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/BiomeDef/wildAnimals/Goose</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/BiomeDef/wildAnimals/Goose</xpath>
+        </match>
+    </Operation>
+    <Operation Class="PatchOperationConditional" MayRequire="VanillaExpanded.VanillaAnimalsExpanded">
+        <xpath>Defs/BiomeDef/wildAnimals/AEXP_WildGoose</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/BiomeDef/wildAnimals/AEXP_WildGoose</xpath>
+        </match>
+    </Operation>
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/BiomeDef/wildAnimals/Elk</xpath>
     </Operation>
