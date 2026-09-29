@@ -72,6 +72,10 @@
     <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
   </Operation>
   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Goose"]/race</xpath>
+    <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="GuineaPig"]/race</xpath>
     <value><neverIncludeInQuests>true</neverIncludeInQuests></value>
   </Operation>

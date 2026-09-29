@@ -184,6 +184,11 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Goose"]/tradeTags</xpath>
+        <value><tradeTags Inherit="False" /></value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="GuineaPig"]/tradeTags</xpath>
         <value><tradeTags Inherit="False" /></value>
     </Operation>

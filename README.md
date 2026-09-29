@@ -34,6 +34,7 @@
 - Elk
 - Emu
 - Flamingo
+- Goose
 - Gorilla
 - Grizzly Bear
 - Guinea Pig
@@ -145,6 +146,8 @@
 - Emu Egg (Unfert.)
 - Flamingo Egg (Fert.)
 - Flamingo Egg (Unfert.)
+- Goose Egg (Fert.)
+- Goose Egg (Unfert.)
 - Gorilla Meat
 - Guinea Pig Meat
 - Hare Meat
