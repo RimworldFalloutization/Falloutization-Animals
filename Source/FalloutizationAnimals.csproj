@@ -50,10 +50,18 @@
   </ItemGroup>
   
   <ItemGroup>
+    <Reference Include="FCP_Core">
+      <HintPath>..\..\FCP-Tools\1.6\Assemblies\FCP_Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*-*" />
     <PackageReference Include="Krafs.Publicizer" Version="2.*" PrivateAssets="all">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Lib.Harmony" Version="2.3.3" ExcludeAssets="runtime" />
   </ItemGroup>
   
   <!-- Global Usings -->

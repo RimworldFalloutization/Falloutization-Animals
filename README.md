@@ -6,6 +6,7 @@
 - Make Brahmin (FCP - Animals) pennable and allow traders to sell them
 - Make Bighorners (FCP - Animals) pennable, milkable, and allow traders to sell them
 - Bighorners, Radstags, Muffalos and Horses removed from FIP caravans
+- Hostile Animal hediff fixed to properly react to getting shot and register as danger
 
 
 ## Removals

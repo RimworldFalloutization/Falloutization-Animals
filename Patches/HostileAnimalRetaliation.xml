@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/HediffDef[defName="FCP_Hediff_Spawn_Hostile_Animal"]/comps</xpath>
+        <value>
+            <li Class="Falloutization.Animals.HediffCompProperties_HostileAnimalRetaliation" />
+        </value>
+    </Operation>
+
+</Patch>
