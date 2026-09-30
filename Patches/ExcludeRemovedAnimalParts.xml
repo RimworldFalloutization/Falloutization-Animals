@@ -19,5 +19,25 @@
             <li>AlphaThrumboHorn</li>
         </value>
     </Operation>
+
+    <!-- H&H Tools tags these as improvised weapons. Empty tags keep them out of pawn weapon generation. -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElephantTusk" or defName="ThrumboHorn"]/weaponTags</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="ElephantTusk" or defName="ThrumboHorn"]/weaponTags</xpath>
+            <value>
+                <weaponTags Inherit="False" />
+            </value>
+        </match>
+    </Operation>
+    <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Odyssey">
+        <xpath>Defs/ThingDef[defName="MastodonTusk" or defName="AlphaThrumboHorn"]/weaponTags</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MastodonTusk" or defName="AlphaThrumboHorn"]/weaponTags</xpath>
+            <value>
+                <weaponTags Inherit="False" />
+            </value>
+        </match>
+    </Operation>
     
 </Patch>
